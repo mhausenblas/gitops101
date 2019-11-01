@@ -100,8 +100,9 @@ spec:
         - --ssh-keygen-dir=/var/fluxd/keygen
 
         # replace or remove the following URL
-        - --git-url=git@github.com:weaveworks/flux-get-started
+        - --git-url=git@github.com:mhausenblas/gitops101
         - --git-branch=master
+        - --git-path=deploy/kubernetes
 
         # include these next two to connect to an "upstream" service
         # (e.g., Weave Cloud). The token is particular to the service.
