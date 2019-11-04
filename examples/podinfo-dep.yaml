@@ -7,7 +7,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      name: podinfo
+      app: podinfo
   template:
     metadata:
       labels:
