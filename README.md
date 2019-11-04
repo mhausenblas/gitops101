@@ -24,4 +24,7 @@ cp examples/podinfo-dep.yaml deploy/kubernetes
 git add deploy
 git commit -m "adds new deployment to cluster"
 git push origin master
+
+# wait for some 5min until you see the podinfo deployment and pod:
+watch kubectl get pods,deploy
 ```
