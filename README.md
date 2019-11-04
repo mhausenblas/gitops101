@@ -24,8 +24,4 @@ cp examples/podinfo-dep.yaml deploy/kubernetes
 git add deploy
 git commit -m "adds new deployment to cluster"
 git push origin master
-
-git rm deploy/kubernetes/podinfo-dep.yaml
-git commit -m "removes deployment"
-git push origin master
 ```
